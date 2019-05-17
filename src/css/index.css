@@ -1,3 +1,6 @@
 .navbar h4{
     color: whitesmoke
 }
+.skills_table li{
+    list-style: none;
+}
