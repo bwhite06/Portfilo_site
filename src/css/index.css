@@ -4,3 +4,8 @@
 .skills_table li{
     list-style: none;
 }
+.outerbox{
+    background-color: black;
+    height: 40rem;
+     
+}
