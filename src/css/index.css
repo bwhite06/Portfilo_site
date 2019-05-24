@@ -7,5 +7,28 @@
 .outerbox{
     background-color: black;
     height: 40rem;
+    display: flex;
      
+}
+.icon{
+    width: 50px;
+    border-radius: 50%;
+}
+#home{
+    color:seashell;
+    padding-top: 3rem;
+    position: absolute;
+    margin-left: 10rem;
+    
+
+}
+.outerbox img{
+    width: 200px;
+    height: 200px;
+    margin-top: 200px
+}
+.outerbox p{
+    margin-top: 250px;
+    color:seashell;
+    margin-left: 10px;
 }
