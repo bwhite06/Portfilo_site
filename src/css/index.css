@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+
+}
 .navbar h4{
     color: whitesmoke
 }
@@ -6,7 +10,7 @@
 }
 .outerbox{
     background-color: black;
-    height: 40rem;
+    height: 30rem;
     display: flex;
      
 }
@@ -19,7 +23,20 @@
     padding-top: 3rem;
     position: absolute;
     margin-left: 10rem;
-    
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 10rem;
+      width: 100%;
+    }
 
 }
 .outerbox img{
@@ -31,4 +48,28 @@
     margin-top: 250px;
     color:seashell;
     margin-left: 10px;
+}
+
+
+
+
+.skills_box{
+    background-color: seashell;
+    width: 510px;
+    height: 400px;
+    margin-left: 500px;
+    margin-bottom: 0px;
+    border-radius: 10%;
+
+}
+.project{
+    background-color: black;
+    color: seashell;
+}
+
+.lt{
+    position: absolute;
+}
+ul.skills_table{
+    margin-top: 100px;
 }
