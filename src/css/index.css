@@ -50,15 +50,18 @@ body{
     margin-left: 10px;
 }
 
-
+.outerbox a{
+    color: aliceblue;
+}
 
 
 .skills_box{
     background-color: seashell;
     width: 510px;
     height: 400px;
-    margin-left: 500px;
+    margin-left: 20rem;
     margin-bottom: 0px;
+    
     border-radius: 10%;
 
 }
@@ -72,4 +75,11 @@ body{
 }
 ul.skills_table{
     margin-top: 100px;
+}
+.resumeBox{
+    margin-left: 25rem;
+    margin-bottom: 100px;
+}
+.title{
+position: absolute;
 }
