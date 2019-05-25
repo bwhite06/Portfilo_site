@@ -39,10 +39,18 @@ body{
     }
 
 }
-.outerbox img{
+.about_me{
+    display: flex;
+    flex-direction: column;
+    color:seashell;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.about_me img{
     width: 200px;
     height: 200px;
-    margin-top: 200px
+    margin-top: 0;
 }
 .outerbox p{
     margin-top: 250px;
@@ -68,18 +76,41 @@ body{
 .project{
     background-color: black;
     color: seashell;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .lt{
     position: absolute;
 }
 ul.skills_table{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .resumeBox{
-    margin-left: 25rem;
+    margin-left: 15rem;
     margin-bottom: 100px;
 }
 .title{
 position: absolute;
+}
+.innerBox{
+display: flex;
+}
+#about_me{
+    position: absolute;
+    padding-right: 100px;
+    top: 1350px;
+
+}
+.contact{
+    margin-left: 250px;
+}
+.contact ul li{
+    
+    list-style: none;
+    color:seashell;
+  
+}
+#contact{
+    margin-bottom: 50px;
 }
