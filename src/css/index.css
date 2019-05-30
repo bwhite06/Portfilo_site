@@ -1,6 +1,18 @@
-body{
-    background-color: black;
 
+body{
+    
+    background-image: url("../img/blessing-daniel-635601-unsplash.jpg");
+    background-color: #cccccc;
+}
+.outerbox{
+    flex-direction: column;
+}
+.outerbox img{
+    width: 200px;
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-top: 200px;
+    margin-left: 150px;
 }
 .navbar h4{
     color: whitesmoke
@@ -9,7 +21,7 @@ body{
     list-style: none;
 }
 .outerbox{
-    background-color: black;
+    /* background-color: black*/
     height: 30rem;
     display: flex;
      
@@ -53,9 +65,11 @@ body{
     margin-top: 0;
 }
 .outerbox p{
-    margin-top: 250px;
+    margin-top: 100px;
     color:seashell;
     margin-left: 10px;
+    width: 300px;
+    margin-left: 150px;
 }
 
 .outerbox a{
@@ -74,7 +88,6 @@ body{
 
 }
 .project{
-    background-color: black;
     color: seashell;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -89,6 +102,9 @@ ul.skills_table{
 .resumeBox{
     margin-left: 15rem;
     margin-bottom: 100px;
+    margin-top: 100px;
+    margin-top: 300px;
+    margin-left: 150px;
 }
 .title{
 position: absolute;
