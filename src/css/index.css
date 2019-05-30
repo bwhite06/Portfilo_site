@@ -97,7 +97,7 @@ body{
 
 }
 .project{
-    color: seashell;
+    
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -145,4 +145,7 @@ flex-direction: column
 }
 .navcustom{
     margin-left: 100px;
+}
+#projects{
+    margin-bottom: 50px;
 }
