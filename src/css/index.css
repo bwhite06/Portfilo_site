@@ -65,11 +65,13 @@ body{
     margin-left: 300px;
     margin-top: 10px;
     margin-bottom: 100px;
+    top: 2000px;
 }
 .about_me img{
     width: 200px;
     height: 200px;
-    margin-top: 0;
+    margin-bottom: 10px;
+    margin-top: 200px;
 }
 .outerbox p{
     margin-top: 100px;
@@ -126,7 +128,7 @@ flex-direction: column
 #about_me{
     position: absolute;
     padding-right: 100px;
-    top: 1350px;
+    top: 2000px;
 
 }
 .contact{
