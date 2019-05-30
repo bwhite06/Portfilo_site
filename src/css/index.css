@@ -4,6 +4,13 @@ body{
     background-image: url("../img/blessing-daniel-635601-unsplash.jpg");
     background-color: #cccccc;
 }
+.skills_box{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.navbar h4{
+    margin-left: 50px;
+}
 .outerbox{
     flex-direction: column;
 }
@@ -81,7 +88,7 @@ body{
     background-color: seashell;
     width: 510px;
     height: 400px;
-    margin-left: 20rem;
+   
     margin-bottom: 0px;
     
     border-radius: 10%;
@@ -111,7 +118,11 @@ position: absolute;
 }
 .innerBox{
 display: flex;
+flex-direction: column
 }
+.innerBox h1{
+    margin-left: 150px;
+} 
 #about_me{
     position: absolute;
     padding-right: 100px;
@@ -129,4 +140,7 @@ display: flex;
 }
 #contact{
     margin-bottom: 50px;
+}
+.navcustom{
+    margin-left: 100px;
 }
